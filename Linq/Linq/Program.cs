@@ -1,5 +1,6 @@
 ﻿
 
+using System.Collections.Generic;
 using System;
 using System.Linq;
 
@@ -18,32 +19,61 @@ namespace Linq
 
             var books = new BookRepo().GetBooks();
 
-            var cheapo = books.Where(b => b.Price > 10);
+            var Annon_cheapBooks = books.Where(B => B.Price > 5);
 
-            Func<Book, bool> check = Book => SpecialMethod(Book);
+            Func<Book, bool> check = Book => Book.Price > 5;
+            var Delegate_cheapBooks = books.Where(check);
 
-            var cheapo1 = books.Where(check);
+            Console.WriteLine("*******************");
+            var Annon_sortedBooks = books.OrderBy(T => T.Title);
 
-            foreach (var book in books)
-            {
-                Console.WriteLine(book.Title);
-            }
+            Console.WriteLine("*******************");
+            Func<Book, string> order = Book => Book.Title;
+            var Delegate_sortedBooks = books.OrderBy(order);
 
-            Console.WriteLine("********** var cheapo =  books.Where(b => b.Price < 10 );");
-            foreach (var b in cheapo)
-            {
-                Console.WriteLine("Name: " + b.Title + " Price: " + b.Price);
-            }
 
-            Console.WriteLine(@"**********Func<Book, bool> check = Book => SpecialMethod(Book);
-            var cheapo1 = books.Where(check);");
-            foreach (var b in cheapo1)
-            {
-                Console.WriteLine("Name: " + b.Title + " Price: " + b.Price);
-            }
+            //LINQ Extention Methods
+            var BookList = books
+                                .Where(Book => Book.Price > 5)
+                                .OrderBy(Book => Book.Title)
+                                .Select(Book => Book.Title);
+
+
+            //LINQ Query operators
+            var BookList2 = from b in books
+                            where b.Price > 5
+                            orderby b.Title
+                            select (b.Title, b.Price);
+            
+            var singleBook  = books.Single(Book => Book.Title == "Example book name");
+
+            var firstBook = books.First(Book => Book.Title == "Example book name");
+            var lastBook = books.Last(Book => Book.Title == "Example book name");
+
+            var BookList3 = books.Skip(2).Take(3);
+
+            var count = books.Count();
+
+            var Total = books.Sum(Book => Book.Price);
+
+            var Average = books.Average(Book => Book.Price);
+
+            
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
+
 
 
 
