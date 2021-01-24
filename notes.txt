@@ -1,0 +1,5 @@
+to create a new project file use the cmd:
+dotnet new console -o myapp
+
+run program by ctrl + f5
+
