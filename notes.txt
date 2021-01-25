@@ -3,3 +3,7 @@ dotnet new console -o myapp
 
 run program by ctrl + f5
 
+to add EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.tools
+dotnet add package Microsoft.EntityFrameworkCore
