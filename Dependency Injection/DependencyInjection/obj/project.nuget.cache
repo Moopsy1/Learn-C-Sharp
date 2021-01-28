@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CJls2Ktp5juIcm+GKmbrmhxGzJ30XDUKHvBnp8Y4im8VSsU9491Xb7AJAkYq+PP2LHCbmaJtpTOa5FvSbMtRIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\10727\\Documents\\Visual Studio 2019\\VS Code\\Learn-C-Sharp\\Learn-C-Sharp\\Dependency Injection\\DependencyInjection\\DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\10727\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

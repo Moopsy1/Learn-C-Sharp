@@ -1,0 +1,12 @@
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.exe
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.deps.json
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.json
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.dev.json
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csprojAssemblyReference.cache
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfo.cs
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\Users\10727\Documents\Visual Studio 2019\VS Code\Learn-C-Sharp\Learn-C-Sharp\Dependency Injection\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.genruntimeconfig.cache
