@@ -1,0 +1,15 @@
+﻿This is based on the tutorial on 
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-5.0&tabs=visual-studio
+
+steps we are taking:
+create project, the project is type ASP.NET Core Web Application
+create folder and add a model, this model will generate a db later
+scaffold the model (CRUD)
+create intial DB with PMC
+	Add-Migration InitialCreate
+	Update-Database
+
+
+readup on Asyncronous code here: https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio#asynchronous-code
+
+

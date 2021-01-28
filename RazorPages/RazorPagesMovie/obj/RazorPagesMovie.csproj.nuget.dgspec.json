@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\10727\\Documents\\Visual Studio 2019\\VS Code\\Learn-C-Sharp\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "C:\\Users\\anton\\Documents\\VS Code Repos\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\10727\\Documents\\Visual Studio 2019\\VS Code\\Learn-C-Sharp\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "C:\\Users\\anton\\Documents\\VS Code Repos\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\10727\\Documents\\Visual Studio 2019\\VS Code\\Learn-C-Sharp\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "C:\\Users\\anton\\Documents\\VS Code Repos\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "C:\\Users\\10727\\Documents\\Visual Studio 2019\\VS Code\\Learn-C-Sharp\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj",
-        "packagesPath": "C:\\Users\\10727\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\10727\\Documents\\Visual Studio 2019\\VS Code\\Learn-C-Sharp\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\obj\\",
+        "projectPath": "C:\\Users\\anton\\Documents\\VS Code Repos\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Documents\\VS Code Repos\\Learn-C-Sharp\\RazorPages\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\10727\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,27 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
