@@ -13,3 +13,10 @@ create intial DB with PMC
 readup on Asyncronous code here: https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio#asynchronous-code
 
 
+input boxes:
+<form>
+    <p>
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>

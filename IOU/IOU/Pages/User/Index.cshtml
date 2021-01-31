@@ -1,0 +1,56 @@
+﻿@page
+@model IOU.Pages.User.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+@*<p>
+    <a asp-page="Create">Create New</a>
+</p>*@
+<form>
+    <p>
+        Debtor: <input type="text" asp-for="Debtor" />
+        Amount: <input type="number" asp-for="Amount" step="0.01"/>
+        <input type="submit" value="Add IOU" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IOUSlip[0].Owner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IOUSlip[0].Debtor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IOUSlip[0].Amount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.IOUSlip) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Debtor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+@*            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>
